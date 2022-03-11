@@ -4,18 +4,10 @@ int main(int argc, char **argv) {
     int i = argc;
 
     switch (i) {
-        case 1:
-            printf("%d", i);
-            break;
-        case 2:
-            printf("%d", i);
-            break;
-        case 3:
-            printf("%d", i);
-            break;
-        case 4:
-            printf("%d", i);
-            break;
+        case 1: printf("%d", i); break;
+        case 2: printf("%d", i); break;
+        case 3: printf("%d", i); break;
+        case 4: printf("%d", i); break;
         case 5: printf("%d", i); break;
         case 6: printf("%d", i); break;
         case 7: printf("%d", i); break;
